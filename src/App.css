@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+  background-color: rgb(236, 236, 236);
+  min-height: 100vh;
+}
+
+
+.add {
+  background-color: blueviolet;
+  color: white;
+}
+
+.money {
+  width: 50%;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.balance {
+  box-shadow: 1px 1px 5px 1px rgb(162, 162, 162);
+  background-color: white;
+}
+
+.balance .money:first-child {
+  border-right: 1px solid gainsboro;
+}
+
+.close {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: -33px;
+  top: 2px;
+  display: none;
+  border-radius: 5px;
+}
+
+.item:hover .close{
+  display: block;
+}
+
+.details{
+  width: 50%;
+}
+
+.action{
+  width: 40%;
+}
